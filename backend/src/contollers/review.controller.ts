@@ -295,8 +295,8 @@ export const regenerateReviewSummaryController = async (
         $set: {
           product: productId,
           summary: summary.summary,
-          pros: summary.pros,
-          cons: summary.cons,
+          pros: summary.positivePoints,
+          cons: summary.negativePoints,
           generatedFromReviewCount: reviews.length,
           generatedAt: new Date(),
         },
