@@ -68,14 +68,14 @@ export const register = async (req: Request, res: Response) => {
       to: user.email,
       subject: "Email Verification",
       html: `<p>Hi ${user.fullname},</p>
-             <p>Thank you for registering at <strong>Vestra</strong>.</p>
+             <p>Thank you for registering at <strong>Vastra</strong>.</p>
              <p>Please verify your email address by clicking below:</p>
 
              <a href="${env.FRONTEND_URL}/verify-email?token=${emailVerificationToken}">
                 Verify Email
              </a>
              <p>If you did not create an account, please ignore this email.</p>
-             <p>Best regards,<br>The Vestra Team</p>`,
+             <p>Best regards,<br>The Vastra Team</p>`,
     });
 
     res.status(200).json({
