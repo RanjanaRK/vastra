@@ -134,7 +134,7 @@ const VerifyEmail = () => {
                 </div>
 
                 <Link
-                  to="/auth/login"
+                  to="/login"
                   className="mt-8 flex w-full items-center justify-center bg-[#1b1c1a] py-4 text-[11px] tracking-[0.25em] text-[#fbf9f6] uppercase transition-all duration-300 hover:-translate-y-0.5 hover:bg-[#C9A96E] hover:shadow-lg"
                 >
                   Continue to Login
