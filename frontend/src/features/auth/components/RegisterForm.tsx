@@ -74,7 +74,7 @@ const RegisterForm = () => {
           {/* HEADER */}
           <div className="mb-12">
             <p className="mb-4 text-[10px] tracking-[0.22em] text-[#C9A96E] uppercase">
-              Welcome to Snitch
+              Welcome to Vastra
             </p>
             <h1 className="text-[2.6rem] font-extralight tracking-tight text-[#1b1c1a]">
               Elevate Your Style

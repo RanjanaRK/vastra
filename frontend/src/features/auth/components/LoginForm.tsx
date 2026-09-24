@@ -61,7 +61,7 @@ const LoginForm = () => {
           <div className="w-full max-w-sm">
             <div className="mb-14">
               <p className="mb-4 text-[10px] font-medium tracking-[0.22em] text-[#C9A96E] uppercase">
-                Sign in to Snitch
+                Sign in to Vastra
               </p>
               <h1 className="text-[2.6rem] leading-[1.1] font-extralight tracking-tight text-[#1b1c1a] xl:text-5xl">
                 Enter the Vault
