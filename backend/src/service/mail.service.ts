@@ -14,7 +14,7 @@ export const sendEmail = async ({
 }) => {
   try {
     const response = await resend.emails.send({
-      from: "Vestra <onboarding@resend.dev>",
+      from: "Vastra <onboarding@resend.dev>",
       to,
       subject,
       html,
